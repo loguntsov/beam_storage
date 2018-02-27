@@ -2,7 +2,7 @@
 
 BEAM-storage is inline fast key-value storage based on BEAM-compilation.
 It allows you use constant-like values everywhere.
-You can redefine them, but it is very slow operation. Because it you should recompile BEAM-module every time.
+You can redefine them, but it is very slow operation because you should recompile BEAM-module everytime.
 BEAM-module will be placed in memory. No files will generate.
 
 # Usage
