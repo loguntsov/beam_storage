@@ -1,0 +1,13 @@
+{application, beam_storage, [
+  {description, "Storage for terms based on BEAM-modules"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {maintainers, ["Sergey Loguntsov"]},
+  {licenses, ["MIT"]},
+  {links, [{"Github", "https://github.com/loguntsov/beam_storage"}]},
+  {env, []}
+]}.
